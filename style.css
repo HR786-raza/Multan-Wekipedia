@@ -1,0 +1,73 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+    color: #202122;
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    color: #2a4b8d;
+}
+
+.myclass {
+    font-style: italic;
+    color: grey;
+}
+
+.toc {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.toc h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.reference {
+    font-size: 0.9em;
+}
+
+.superscript {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol.references {
+    padding-left: 20px;
+}
+
+.myclass2 {
+    display: flex;
+    /* gap: 4px; */
+}
+
+.myclass2 img {
+    width: 130px;
+    height: 130px;
+    border: 3px solid white;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    width: 300px;
+    height: 100px;
+    padding: 20px 300px 0px 300px;
+}
